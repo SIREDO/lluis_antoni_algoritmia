@@ -2,7 +2,7 @@ package encriptadora;
 
 public class Enigma {
 	static String frase="Caminoalazardurantehoras";
-	static String fraseenc="LDWIBNDSDDDXSKXDBGRENXDJC";
+	static String fraseenc="LDXIBJDTDZDUOGUDBCSEJUDY";
 	static int a=4;
 	static int b=3;
 	static Cesar cesar= new Cesar();
