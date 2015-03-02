@@ -18,14 +18,6 @@ public class Cesar {
 			c=((a*x)+ b)%27;
 			desordenat[x]=ab[c];
 		}
-		for(int x=0;x<ab.length;x++){
-			System.out.print(ab[x]);
-		}
-		System.out.println(" ");
-		for(int x=0;x<ab.length;x++){
-			System.out.print(desordenat[x]);
-		}
-		System.out.println(" ");
 		for(int f=0;f<frase.length();f++){
 			for(int d=0;d<ab.length;d++){
 				if(frase.charAt(f)==ab[d]){
