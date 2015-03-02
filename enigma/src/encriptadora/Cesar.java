@@ -27,4 +27,25 @@ public class Cesar {
 		}
 		return codificat;
 	}
+	
+	public String desencriptacionAfin(int a, int b, String fraseenc){
+			
+			String descodificat = "";
+			
+			char[] desordenat=new char[ab.length];
+			
+			for(int x=0;x<ab.length;x++){
+				int c;
+				c=((a*x)+ b)%27;
+				desordenat[x]=ab[c];
+			}
+			for(int f=0;f<fraseenc.length();f++){
+				for(int d=0;d<desordenat.length;d++){
+					if(fraseenc.charAt(f)==desordenat[d]){
+						descodificat+=ab[d];
+					}
+				}
+			}
+			return descodificat;
+		}
 }
